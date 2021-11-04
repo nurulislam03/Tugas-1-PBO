@@ -1,0 +1,15 @@
+Java 17
+JDK 17 mencakup peningkatan bahasa baru, pembaruan perpustakaan, dukungan untuk komputer Apple baru, penghapusan dan penghentian fitur lama, dan bekerja untuk memastikan kode Java yang ditulis hari ini akan terus berfungsi tanpa perubahan di versi JDK mendatang. Ini juga menawarkan pratinjau fitur bahasa dan API inkubasi untuk mengumpulkan umpan balik dari komunitas Java.
+Pembaruan dalam rilis meliputi:
+- Kelas dan antarmuka yang disegel membatasi kelas atau antarmuka mana yang dapat diperluas atau diimplementasikan.
+- Kembalikan Semantik Floating-Point Selalu Ketat
+- Jenis dan implementasi antarmuka baru untuk Pseudo-Random Number Generator (PRNG), termasuk PRNG yang dapat dilompati dan kelas tambahan dari algoritma PRNG yang dapat dipisah (LXM).
+- Terapkan pipeline Java 2D untuk macOS menggunakan Apple Metal API.
+- Dukungan komputer Apple Silicon berbasis Arm 64 baru.
+- Menghentikan Applet API untuk dihapus
+- Hapus mekanisme Aktivasi Remote Method Invocation (RMI)
+- Hapus Kompilator AOT dan JIT Eksperimental
+- Menghentikan Manajer Keamanan untuk dihapus
+- Enkapsulasi semua elemen internal JDK dengan kuat, kecuali untuk API internal penting seperti sun.misc.Unsafe.
+- Pencocokan pola untuk ekspresi dan pernyataan beralih, bersama dengan ekstensi ke bahasa pola.
+- Meningkatkan Fungsi Asing dan API Memori dan API Vektor.
